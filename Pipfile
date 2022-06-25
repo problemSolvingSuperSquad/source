@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+pillow = "*"
+djangorestframework = "*"
+djangorestframework-simplejwt = "*"
+django-extra-fields = "*"
+psycopg2-binary = "*"
+yolov5 = "*"
+django-cors-headers = "*"
+wikipedia-api = "*"
+wikipedia = "*"
+ebird-api = "*"
+django-on-heroku = "*"
+gunicorn = "*"
+psycopg2 = "*"
+django-heroku = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
